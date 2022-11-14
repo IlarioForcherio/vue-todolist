@@ -22,7 +22,9 @@ var app = new Vue({
     methods: {
 
       eliminaFaccenda: function(index){
-
+       //devo rimuovere un certo oggetto dall'array secondo l'index
+       //si deve usare il metodo splice()
+       this.todoList.splice(index,1);
       },
       
     }
