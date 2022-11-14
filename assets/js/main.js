@@ -20,6 +20,10 @@ var app = new Vue({
 
 
     methods: {
+
+      eliminaFaccenda: function(index){
+
+      },
       
     }
   })
